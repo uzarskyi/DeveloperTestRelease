@@ -1,0 +1,11 @@
+@Backend_HostAddress = http://localhost:5256
+
+GET {{Backend_HostAddress}}/api/Users
+Accept: application/json
+
+###
+
+GET {{Backend_HostAddress}}/api/Icons/female1
+Accept: image/png
+
+###

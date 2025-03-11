@@ -1,0 +1,44 @@
+{
+  "_id": "5e26d0d7dc4ba7beaa784f05",
+  "index": 0,
+  "guid": "fae721c8-0884-4ee4-9355-a634d4c17854",
+  "isActive": false,
+  "balance": "2,964.34",
+  "age": 39,
+  "eyeColor": "blue",
+  "name": "Caroline Key",
+  "gender": "female",
+  "company": "MAKINGWAY",
+  "email": "carolinekey@makingway.com",
+  "phone": "+1 (996) 530-3010",
+  "address": "536 Roder Avenue, Lawrence, District Of Columbia, 1607",
+  "about": "Eiusmod enim sint ullamco do consectetur exercitation sit. Anim deserunt proident amet in irure fugiat consequat veniam. Magna sit velit sunt magna incididunt dolor in adipisicing nostrud ad consequat officia amet ad. Veniam dolore amet occaecat sint. Adipisicing mollit dolore occaecat esse culpa nulla enim. Exercitation id consequat nisi velit laborum voluptate est enim.\r\n",
+  "registered": "2019-05-04T11:19:07 -01:00",
+  "latitude": 51.763212,
+  "longitude": -11.761535,
+  "tags": [
+    "fugiat",
+    "incididunt",
+    "eiusmod",
+    "sint",
+    "labore",
+    "cillum",
+    "ipsum"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Luann Acosta"
+    },
+    {
+      "id": 1,
+      "name": "Ford Sampson"
+    },
+    {
+      "id": 2,
+      "name": "Weiss Sanchez"
+    }
+  ],
+  "greeting": "Hello, Caroline Key! You have 4 unread messages.",
+  "favoriteFruit": "banana"
+}

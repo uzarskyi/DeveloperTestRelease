@@ -1,0 +1,45 @@
+{
+  "_id": "5e26d0d728f9116628ba7f03",
+  "index": 5,
+  "guid": "f19c0a8a-eed5-4bf0-91aa-51115a3b60ae",
+  "isActive": true,
+  "balance": "1,442.80",
+  "iconName": "male1",
+  "age": 27,
+  "eyeColor": "blue",
+  "name": "Booth Evans",
+  "gender": "male",
+  "company": "SKINSERVE",
+  "email": "boothevans@skinserve.com",
+  "phone": "+1 (842) 598-2697",
+  "address": "976 Calyer Street, Ryderwood, Michigan, 1614",
+  "about": "Ullamco ullamco exercitation laboris ipsum occaecat amet cupidatat aute ea duis cupidatat. Ea anim reprehenderit labore ut culpa. Esse ex nostrud cupidatat aliquip magna fugiat voluptate ea dolor deserunt.\r\n",
+  "registered": "2016-07-03T07:21:48 -01:00",
+  "latitude": 30.924174,
+  "longitude": -98.876074,
+  "tags": [
+    "tempor",
+    "in",
+    "non",
+    "in",
+    "do",
+    "sunt",
+    "in"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Gomez Sears"
+    },
+    {
+      "id": 1,
+      "name": "Joni Vang"
+    },
+    {
+      "id": 2,
+      "name": "Sophie Hopper"
+    }
+  ],
+  "greeting": "Hello, Booth Evans! You have 8 unread messages.",
+  "favoriteFruit": "strawberry"
+}

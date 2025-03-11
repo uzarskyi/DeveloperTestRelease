@@ -1,0 +1,45 @@
+{
+  "_id": "5e26d0d799b925bd8c24c267",
+  "index": 2,
+  "guid": "d5a6f7ac-78ba-4039-863e-ef7217e76664",
+  "isActive": false,
+  "balance": "3,496.09",
+  "iconName": "male2",
+  "age": 68,
+  "eyeColor": "green",
+  "name": "Hale Kline",
+  "gender": "male",
+  "company": "UPDAT",
+  "email": "halekline@updat.com",
+  "phone": "+1 (842) 550-3946",
+  "address": "299 Ryerson Street, Witmer, Virginia, 7663",
+  "about": "Est esse eiusmod esse velit et veniam excepteur. Amet fugiat veniam magna laboris. Pariatur excepteur nostrud magna nulla minim ex. Commodo culpa non esse cupidatat deserunt nostrud nulla ipsum nostrud fugiat cupidatat sit ex eu. Dolor ipsum elit deserunt magna qui mollit in ad ex quis ea in.\r\n",
+  "registered": "2015-02-12T04:56:37 -00:00",
+  "latitude": 56.793684,
+  "longitude": -111.175256,
+  "tags": [
+    "proident",
+    "cillum",
+    "nisi",
+    "laborum",
+    "consequat",
+    "aliquip",
+    "anim"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Malinda Brock"
+    },
+    {
+      "id": 1,
+      "name": "Tanner Stewart"
+    },
+    {
+      "id": 2,
+      "name": "Lucille Burnett"
+    }
+  ],
+  "greeting": "Hello, Hale Kline! You have 3 unread messages.",
+  "favoriteFruit": "banana"
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "5e26d0d7b3d4467dd0bf16e7",
+  "index": 6,
+  "guid": "e93bec7d-4161-44c0-8078-fed6622972f6",
+  "isActive": false,
+  "balance": "2,899.37",
+  "iconName": "female2",
+  "age": 65,
+  "eyeColor": "brown",
+  "name": "Abigail Graves",
+  "gender": "female",
+  "company": "NIKUDA",
+  "email": "abigailgraves@nikuda.com",
+  "phone": "+1 (819) 500-3182",
+  "address": "135 Celeste Court, Sidman, Missouri, 6502",
+  "about": "Eu reprehenderit pariatur tempor ex laboris sunt ex nulla aute in id. Tempor officia voluptate elit voluptate dolore ullamco Lorem ipsum ea qui aute Lorem voluptate consectetur. Sit dolore nisi magna laboris dolore consectetur elit laboris consectetur laborum aliquip id commodo. Minim sint aliquip id aliquip eiusmod officia esse ullamco dolore non.\r\n",
+  "registered": "2019-10-23T02:19:08 -01:00",
+  "latitude": -16.769493,
+  "longitude": -150.221199,
+  "tags": [
+    "exercitation",
+    "do",
+    "tempor",
+    "magna",
+    "quis",
+    "dolore",
+    "nostrud"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Fuentes Sweeney"
+    },
+    {
+      "id": 1,
+      "name": "Jane Stafford"
+    },
+    {
+      "id": 2,
+      "name": "Boyer Huffman"
+    }
+  ],
+  "greeting": "Hello, Abigail Graves! You have 7 unread messages.",
+  "favoriteFruit": "banana"
+}

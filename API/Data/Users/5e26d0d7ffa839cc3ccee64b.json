@@ -1,0 +1,45 @@
+{
+  "_id": "5e26d0d7ffa839cc3ccee64b",
+  "index": 4,
+  "guid": "b3c3a286-6646-48c2-8c4a-1de176775943",
+  "isActive": false,
+  "balance": "3,463.00",
+  "iconName": "male1",
+  "age": 23,
+  "eyeColor": "blue",
+  "name": "Mckee Lancaster",
+  "gender": "male",
+  "company": "LOTRON",
+  "email": "mckeelancaster@lotron.com",
+  "phone": "+1 (894) 425-3470",
+  "address": "526 Linden Street, Biddle, New Hampshire, 3203",
+  "about": "Mollit culpa amet eiusmod laborum id minim in laborum in irure est quis. Est dolor amet voluptate dolor dolore qui culpa reprehenderit. Adipisicing minim aute laboris sunt sunt fugiat. Aliquip enim cupidatat et mollit consequat duis culpa adipisicing.\r\n",
+  "registered": "2018-06-30T02:14:07 -01:00",
+  "latitude": 70.596887,
+  "longitude": 165.373922,
+  "tags": [
+    "aliqua",
+    "quis",
+    "aliqua",
+    "amet",
+    "reprehenderit",
+    "cupidatat",
+    "mollit"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Gale Knox"
+    },
+    {
+      "id": 1,
+      "name": "Lucia Hays"
+    },
+    {
+      "id": 2,
+      "name": "Clarissa Nixon"
+    }
+  ],
+  "greeting": "Hello, Mckee Lancaster! You have 7 unread messages.",
+  "favoriteFruit": "apple"
+}
