@@ -1,0 +1,59 @@
+<div class="container mt-4">
+  <h1>Users</h1>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <div class="input-group">
+        <label for="search" class="input-group-text">Search:</label>
+        <input type="text"
+               class="form-control"
+               [(ngModel)]="searchTerm"
+               (input)="onSearch()"
+               placeholder="Search by name...">
+      </div>
+    </div>
+    <div class="col-md-6 text-end">
+      <button class="btn btn-danger" (click)="resetBalances()">Reset Balance</button>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Icon</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Registered Date</th>
+          <th>Email</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngIf="users$ | async as users">
+          <tr *ngFor="let user of users">
+            <td>
+              <img [src]="user.iconPath"
+                   alt="User icon"
+                   class="user-icon"
+                   width="40"
+                   height="40">
+            </td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ formatDateTime(user.registered) }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ formatToPounds(user.balance) }}</td>
+          </tr>
+        </ng-container>
+          <tr *ngIf="(users$ | async)?.length === 0">
+            <td colspan="6">
+              <ngb-alert [dismissible]="false" type="info">
+                No users found matching your search criteria.
+              </ngb-alert>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
