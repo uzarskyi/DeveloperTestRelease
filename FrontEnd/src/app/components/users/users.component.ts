@@ -43,46 +43,6 @@ export class UsersComponent implements OnInit {
     this.userService.resetBalances();
   }
 
-  formatDate(dateString: string): string {
-    /*
-    const date = new Date(dateString);
-    const day = date.getDate().toString().padStart(2, '0');
-    const month = (date.getMonth() + 1).toString().padStart(2, '0');
-    const year = date.getFullYear();
-    const hours = date.getHours().toString().padStart(2, '0');
-    const minutes = date.getMinutes().toString().padStart(2, '0');
-    const seconds = date.getSeconds().toString().padStart(2, '0');
-
-    return `${day}-${month}-${year} ${hours}:${minutes}:${seconds}`;
-    */
-
-    //const date = new Date(dateString);
-
-    //const datePipe = new DatePipe('en-US');
-    //const formattedDate = datePipe.transform(dateString, 'dd-MM-yyyy HH:mm:ss');
-
-    /*const formattedDate = `${('0' + date.getDate())
-      .slice(-2)}-${('0' + (date.getMonth() + 1))
-        .slice(-2)}-${date.getFullYear()} ${('0' + date.getHours())
-          .slice(-2)}:${('0' + date.getMinutes())
-            .slice(-2)}:${('0' + date.getSeconds())
-        .slice(-2)}`;*/
-    //const formattedDate = `${('0' + date)}`;
-
-
-    //const formattedDateString = formattedDate !== null ? formattedDate : 'N/A';
-
-
-
-
-
-
-
-    const formattedDateString = 'dd-55-yyyy HH:mm:ss';
-    return formattedDateString;
-
-  }
-
   formatToPounds(value: string): string {
     if (!value) return '';
 
@@ -102,28 +62,6 @@ export class UsersComponent implements OnInit {
     }).format(numericValue);
   }
 
-  formatUtcDateTime(value: string): string {
-    if (!value) return '1';
-
-    // Parse the input string into a Date object
-    //const date = new Date(value);
-    const date = new Date(Date.parse(value));
-
-    if (isNaN(date.getTime())) {
-      return '2';
-    }
-
-    // Format the date in UTC
-    const day = String(date.getUTCDate()).padStart(2, '0');
-    const month = String(date.getUTCMonth() + 1).padStart(2, '0'); // Months are zero-based
-    const year = date.getUTCFullYear();
-    const hours = String(date.getUTCHours()).padStart(2, '0');
-    const minutes = String(date.getUTCMinutes()).padStart(2, '0');
-    const seconds = String(date.getUTCSeconds()).padStart(2, '0');
-
-    return `${day}-${month}-${year} ${hours}:${minutes}:${seconds}`;
-  }
-
   formatDateTime(value: string): string {
     if (!value) return '';
 
@@ -140,6 +78,10 @@ export class UsersComponent implements OnInit {
     const seconds = match[6];
 
     return `${day}-${month}-${year} ${hours}:${minutes}:${seconds}`;
+  }
+
+  getIconUrl(iconName: string): string {
+    return this.userService.getIconUrl(iconName);
   }
 
 }

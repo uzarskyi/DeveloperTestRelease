@@ -4,5 +4,5 @@ export interface User {
   registered: string;
   email: string;
   balance: string;
-  iconPath: string;
+  iconName: string;
 }

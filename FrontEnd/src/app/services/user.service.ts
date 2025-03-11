@@ -15,9 +15,20 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(`${this.apiUrl}/users`).pipe(
+    return this.http.get<any[]>(`${this.apiUrl}/users`).pipe(
+      map(users => users.map(user => ({
+        ...user,
+        iconName: this.extractIconNameFromPath(user.iconPath) // Extract iconName from the path
+      }))),
       tap(users => this.usersSubject.next(users))
     );
+  }
+
+  // Helper function to extract icon name from path
+  private extractIconNameFromPath(path: string): string {
+    if (!path) return 'unknown';
+    const parts = path.split('/');
+    return parts[parts.length - 1];
   }
 
   resetBalances(): void {
@@ -40,5 +51,9 @@ export class UserService {
       user.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     this.usersSubject.next(filteredUsers);
+  }
+
+  getIconUrl(iconName: string): string {
+    return `${this.apiUrl}/icons/${iconName}`;
   }
 }
