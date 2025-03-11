@@ -34,10 +34,7 @@
           <tr *ngFor="let user of users">
             <td>
               <img [src]="getIconUrl(user.iconName)"
-                   alt="User icon"
-                   class="user-icon"
-                   width="40"
-                   height="40">
+                   alt="User icon"/>
             </td>
             <td>{{ user.name }}</td>
             <td>{{ user.age }}</td>
